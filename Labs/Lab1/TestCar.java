@@ -7,6 +7,7 @@ public class TestCar
           myCar.drive(100);
           double gasLeft = myCar.getGasInTank();
           
-          Sy
+          System.out.println("My car has " + myCar.getGasInTank() + " gallons of gas remaining");
+               
      }
 }

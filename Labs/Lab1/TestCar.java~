@@ -4,7 +4,9 @@ public class TestCar
      {
           Car myCar = new Car (50);
           myCar.addGas(20);
-               myCar.drive(100);
-               double gasLeft = myHybrid.getGasInTank();
+          myCar.drive(100);
+          double gasLeft = myCar.getGasInTank();
+          
+          Sy
      }
 }
