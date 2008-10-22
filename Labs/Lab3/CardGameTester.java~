@@ -1,0 +1,23 @@
+//Evan Horgan
+//Help from moodle
+
+public class CardGameTester
+{
+   public static void main(String[] args)
+   {      
+      System.out.println(new Card("4S").getDescription());
+      System.out.println("Your card is the: Four of Spades");  
+      System.out.println(new Card("QC").getDescription());
+      System.out.println("Your card is the: Queen of Clubs");  
+      System.out.println(new Card("AD").getDescription());
+      System.out.println("Your card is the: Ace of Diamonds");  
+      System.out.println(new Card("10S").getDescription());
+      System.out.println("Your card is the: Ten of Spades");  
+      System.out.println(new Card("CA").getDescription());
+      System.out.println("Your card is the: Unknown");  
+      System.out.println(new Card("").getDescription());
+      System.out.println("Your card is the: Unknown");  
+      System.out.println(new Card("?").getDescription());
+      System.out.println("Your card is the: Unknown");  
+   }
+}

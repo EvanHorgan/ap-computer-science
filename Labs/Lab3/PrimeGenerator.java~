@@ -1,0 +1,23 @@
+public class PrimeGenerator
+{
+     private int currentNumber;
+     
+     
+     public PrimeGenerator ()
+     {
+          currentNumber = 1;
+     }
+     
+     
+     public int nextPrime ()
+     {
+          currentNumber ++;
+          //keep looping until we find a prime number
+          
+               //inside the loop have a second loop to test if the currentNumber is prime.
+               //if it is, exit the outer loop
+               //else, increment currentNumber by 1.
+          
+          //When we exit the outer loop, return currentNumber
+          return currentNumber;
+     }
