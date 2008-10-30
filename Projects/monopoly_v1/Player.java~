@@ -1,0 +1,9 @@
+public class Player
+{
+     private String name;
+     private int space;
+     private int money;
+     private int doubles;
+     private whichPiece;
+     private in jail
+     

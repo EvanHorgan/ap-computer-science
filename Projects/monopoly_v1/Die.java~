@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public class Die
+{
+     private int numSides;
+     private Random gen;
+     
+     public Die(int n)
+     {
+          numSides = n;
+          gen  = new Random();
+     }
+     
+     public int nextRoll()
+     {
+          return gen.nextInt(numSides) + 1;
+     }
+     
+     
+}

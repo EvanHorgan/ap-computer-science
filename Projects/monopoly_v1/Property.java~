@@ -1,0 +1,16 @@
+public class Property
+{
+  private String name, color;
+  private int owner, type, cost, rent, mortgage, space;
+  
+  public Property (String n, int o, int t, String col, int cos, int r, int m, int s)
+  {
+    name = n;
+    owner = o;
+    type = t;
+    color = col;
+    cost = cos;
+    rent = r;
+    mortgage = m;
+    space = s;
+  }
