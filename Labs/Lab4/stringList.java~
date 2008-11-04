@@ -1,0 +1,9 @@
+//Evan Horgan
+
+
+improt java.util.*;
+
+public class stringList
+{
+     public static void main (String args [])
+     {

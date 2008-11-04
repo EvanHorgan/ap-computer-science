@@ -21,7 +21,7 @@ public class TrianglePrinter
                System.out.println ();
           }//end of outer loop
           
-          for (int i = sideLength; i > 0; i--)
+          for (int i = sideLength; i >= 0; i--)
           {
                for (int j = 0; j <= i; j++)
                {

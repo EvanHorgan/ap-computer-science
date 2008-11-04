@@ -1,0 +1,14 @@
+//Evan Horgan
+
+
+import java.util.Random;
+
+public class RandomInts2
+{
+     public static void main (String args[])
+     {
+          Random gen = new Random ();
+          
+          int nums[] = new int [20];
+          
+          boolean i

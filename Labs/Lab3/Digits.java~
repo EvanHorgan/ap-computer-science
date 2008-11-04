@@ -1,0 +1,5 @@
+public class Digits
+{
+     public int numberOfSevens (int number)
+     {
+          
