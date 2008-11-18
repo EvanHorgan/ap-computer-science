@@ -1,0 +1,15 @@
+//Evan Horgan
+
+public class purseTester
+{
+     public static void main (String args[])
+          
+     {
+          Purse myPurse = new Purse();
+          myPurse.addCoin(new Coin ("Dime", 0.1));
+          
+          System.out.println (myPurse);
+          
+          
+     }
+}
