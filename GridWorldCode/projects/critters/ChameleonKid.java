@@ -28,7 +28,7 @@ import java.util.ArrayList;
  * it moves through the grid. <br />
  * The implementation of this class is testable on the AP CS A and AB exams.
  */
-public class ChameleonCritter extends Critter
+public class ChameleonKid extends ChameleonCritter
 {
     /**
      * Randomly selects a neighbor and changes this critter's color to be the
@@ -42,18 +42,16 @@ public class ChameleonCritter extends Critter
              setColor (new Color ( ((int) (getColor ().getRed() * .9)), ((int) (getColor ().getGreen() * .9)), ((int) (getColor ().getBlue() * .9)) ));
             return;
         }
-        int r = (int) (Math.random() * n);
+        
 
-        Actor other = actors.get(r);
-        setColor(other.getColor());
+         for (Actor a : actors)
+         {
+              if ( getLocation().getAdjacentLocation (getDirection() ).compareTo (a.getLocation()) == 0)
+                   setColor(a.getColor());
+              else if (getLocation().getAdjacentLocation (getDirection() + Location.HALF_CIRCLE ).compareTo (a.getLocation()) == 0)
+                   setColor(a.getColor());
+         }
+              
     }
 
-    /**
-     * Turns towards the new location as it moves.
-     */
-    public void makeMove(Location loc)
-    {
-        setDirection(getLocation().getDirectionToward(loc));
-        super.makeMove(loc);
-    }
 }
